@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 12vh;
+  width: 80vw;
+  margin: 0 auto;
+  color: #ffffff;
+
+  img {
+    height: 3rem;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+
+  .list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+    svg {
+      font-size: 1.25rem;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
