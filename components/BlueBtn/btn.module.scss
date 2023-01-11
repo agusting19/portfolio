@@ -1,0 +1,17 @@
+.mailBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: #3878df;
+  border-radius: 5px;
+
+  svg {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+}

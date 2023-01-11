@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Header } from '../components';
+import { Header, UpperSection } from '../components';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Header />
-        <h1>Hola</h1>
+        <UpperSection />
       </main>
     </>
   );
