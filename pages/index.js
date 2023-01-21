@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Header, UpperSection } from '../components';
+import { Header, Projects, UpperSection } from '../components';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <Header />
         <UpperSection />
+        <Projects />
       </main>
     </>
   );
