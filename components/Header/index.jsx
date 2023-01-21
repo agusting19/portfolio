@@ -1,4 +1,4 @@
-import { FiSun, FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { GITHUB_URL, LINKEDIN_URL } from '../../constants';
 import styles from './header.module.scss';
 
@@ -16,9 +16,6 @@ const Header = () => {
           <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
             <FiLinkedin />
           </a>
-        </li>
-        <li>
-          <FiSun />
         </li>
       </ul>
     </header>

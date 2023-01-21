@@ -1,9 +1,8 @@
-import { FiMail } from 'react-icons/fi';
+import BlueBtn from '../BlueBtn';
 import { VscGithub } from 'react-icons/vsc';
 import { AiOutlineLinkedin } from 'react-icons/ai';
-import { EMAIL, GITHUB_URL, LINKEDIN_URL } from '../../constants';
+import { GITHUB_URL, LINKEDIN_URL } from '../../constants';
 import styles from './upper.module.scss';
-import BlueBtn from '../BlueBtn';
 
 const UpperSection = () => {
   return (
