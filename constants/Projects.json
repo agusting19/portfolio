@@ -1,0 +1,77 @@
+[
+  {
+    "imgURL": "/basp-etapa-1.png",
+    "title": "BaSP-Etapa-1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sit amet orci at lacinia. In at sagittis mi. Duis quis lacus facilisis, placerat elit ut, tempor justo. Quisque et efficitur odio. Etiam efficitur enim ornare tellus volutpat, a elementum quam posuere. Quisque malesuada imperdiet nisl, eget porta lacus. Sed ac ultricies purus, quis tempor lorem. Suspendisse eu euismod elit. In ac odio felis. Mauris aliquet odio in neque cursus dapibus ac nec nisi.",
+    "pageUrl": "https://agusting19.github.io/BaSP-M2022-Etapa-1/Semana-07/views/index.html",
+    "repoUrl": "https://github.com/agusting19/BaSP-M2022-Etapa-1"
+  },
+  {
+    "imgURL": "/api.png",
+    "title": "Time Tracking API",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sit amet orci at lacinia. In at sagittis mi. Duis quis lacus facilisis, placerat elit ut, tempor justo. Quisque et efficitur odio. Etiam efficitur enim ornare tellus volutpat, a elementum quam posuere. Quisque malesuada imperdiet nisl, eget porta lacus. Sed ac ultricies purus, quis tempor lorem. Suspendisse eu euismod elit. In ac odio felis. Mauris aliquet odio in neque cursus dapibus ac nec nisi.",
+    "pageUrl": "",
+    "repoUrl": "https://github.com/agusting19/capi-trackgenix-server"
+  },
+  {
+    "imgURL": "/trackgenix.png",
+    "title": "Trackgenix",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sit amet orci at lacinia. In at sagittis mi. Duis quis lacus facilisis, placerat elit ut, tempor justo. Quisque et efficitur odio. Etiam efficitur enim ornare tellus volutpat, a elementum quam posuere. Quisque malesuada imperdiet nisl, eget porta lacus. Sed ac ultricies purus, quis tempor lorem. Suspendisse eu euismod elit. In ac odio felis. Mauris aliquet odio in neque cursus dapibus ac nec nisi.",
+    "pageUrl": "",
+    "repoUrl": "https://github.com/agusting19/alexis-trackgenix-app"
+  },
+  {
+    "imgURL": "/api.png",
+    "title": "Time Tracking API ",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sit amet orci at lacinia. In at sagittis mi. Duis quis lacus facilisis, placerat elit ut, tempor justo. Quisque et efficitur odio. Etiam efficitur enim ornare tellus volutpat, a elementum quam posuere. Quisque malesuada imperdiet nisl, eget porta lacus. Sed ac ultricies purus, quis tempor lorem. Suspendisse eu euismod elit. In ac odio felis. Mauris aliquet odio in neque cursus dapibus ac nec nisi.",
+    "pageUrl": "",
+    "repoUrl": "https://github.com/agusting19/alexis-trackgenix-server"
+  },
+  {
+    "imgURL": "/weekly-challenges.png",
+    "title": "Weekly Challenges",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis sit amet orci at lacinia. In at sagittis mi. Duis quis lacus facilisis, placerat elit ut, tempor justo. Quisque et efficitur odio. Etiam efficitur enim ornare tellus volutpat, a elementum quam posuere. Quisque malesuada imperdiet nisl, eget porta lacus. Sed ac ultricies purus, quis tempor lorem. Suspendisse eu euismod elit. In ac odio felis. Mauris aliquet odio in neque cursus dapibus ac nec nisi.",
+    "pageUrl": "https://weekly-challenges-v2.vercel.app/",
+    "repoUrl": "https://github.com/agusting19/Weekly-Challenges-v2"
+  },
+  {
+    "imgURL": "/3d-car.png",
+    "title": "3D Car",
+    "description": "",
+    "pageUrl": "https://3d-car-theta.vercel.app/",
+    "repoUrl": "https://github.com/agusting19/3d-car"
+  },
+  {
+    "imgURL": "/weather-app.png",
+    "title": "Wheather App",
+    "description": "",
+    "pageUrl": "https://weather-app-six-opal.vercel.app/",
+    "repoUrl": "https://github.com/agusting19/WeatherApp"
+  },
+  {
+    "imgURL": "/web-scraping.png",
+    "title": "Wheather Scraping",
+    "description": "",
+    "pageUrl": "",
+    "repoUrl": "https://github.com/agusting19/weather-scraping"
+  },
+  {
+    "imgURL": "/cine-app.png",
+    "title": "Cine App",
+    "description": "",
+    "pageUrl": "",
+    "repoUrl": "https://github.com/agusting19/cine-app"
+  },{
+    "imgURL": "",
+    "title": "To Do App Angular",
+    "description": "",
+    "pageUrl": "",
+    "repoUrl": "https://github.com/agusting19/ToDoApp-Angular"
+  },{
+    "imgURL": "",
+    "title": "",
+    "description": "",
+    "pageUrl": "",
+    "repoUrl": ""
+  }
+]
