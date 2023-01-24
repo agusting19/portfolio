@@ -13,43 +13,9 @@
     color: #cbd5e1;
   }
 
-  .card {
-    background-color: #1e293b;
-    border-radius: 5px;
-
-    .content {
-      display: flex;
-      flex-direction: column;
-      padding: 24px 32px;
-      gap: 15px;
-
-      img {
-        height: 10rem;
-      }
-
-      h3 {
-        font-size: 2rem;
-        color: #cbd5e1;
-      }
-
-      p {
-        max-width: 40ch;
-        color: #bec9d5;
-      }
-
-      .links {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-
-        a {
-          font-size: 30px;
-          color: #fff;
-          border-radius: 50%;
-          background: #0d0d0d;
-          padding: 8px 8px 5px 8px;
-        }
-      }
-    }
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
