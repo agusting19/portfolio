@@ -21,7 +21,7 @@ const ProjectCard = ({ imgURL, title, description, pageUrl, repoUrl }) => {
       <div className={styles.content}>
         <img src={imgURL} alt="img" />
         <h3>{title}</h3>
-        <div>
+        <div className={styles.icons}>
           <SiTypescript />
           <SiCss3 />
           <SiReact />
