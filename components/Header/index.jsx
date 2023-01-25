@@ -5,7 +5,7 @@ import styles from './header.module.scss';
 const Header = () => {
   return (
     <header className={styles.header}>
-      <img src="/logo.png" alt="Logo" />
+      <img src="/white-ag-logo.png" alt="Logo" />
       <ul className={styles.list}>
         <li>
           <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
