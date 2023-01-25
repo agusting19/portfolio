@@ -1,7 +1,9 @@
 .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 80vw;
+  height: 65vh;
   max-width: 1024px;
   padding: 5rem 0;
   margin: 0 auto;
@@ -34,17 +36,22 @@
 
     .buttons {
       display: flex;
+      align-items: center;
       gap: 20px;
 
       .btn {
         font-size: 2.25rem;
         color: #8f929e;
+
+        &:hover {
+          color: #c7e8fd;
+        }
       }
     }
   }
 
   .photo {
-    height: 15rem;
+    height: 18rem;
     object-fit: contain;
     border-radius: 50%;
     border: 10px solid #334155;

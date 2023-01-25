@@ -5,12 +5,21 @@
   height: 12vh;
   width: 80vw;
   max-width: 1024px;
+  position: sticky;
+  top: 0;
   margin: 0 auto;
   color: #ffffff;
+  background-color: #0f172a;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=95)';
+  filter: alpha(opacity=95);
+  -moz-opacity: 0.95;
+  -khtml-opacity: 0.95;
+  opacity: 0.95;
 
   img {
     height: 2rem;
     object-fit: contain;
+    cursor: pointer;
   }
 
   .list {
@@ -20,8 +29,12 @@
 
     svg {
       font-size: 1.25rem;
-      color: #C0C6DE;
+      color: #c0c6de;
       cursor: pointer;
+
+      &:hover {
+        color: #ffffff;
+      }
     }
   }
 }

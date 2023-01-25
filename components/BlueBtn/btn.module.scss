@@ -10,8 +10,13 @@
   background-color: #3878df;
   border-radius: 5px;
 
+  p {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
   svg {
-    font-size: 20px;
+    font-size: 1rem;
     margin-left: 5px;
   }
 }
