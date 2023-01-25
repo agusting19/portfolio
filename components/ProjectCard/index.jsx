@@ -35,7 +35,6 @@ const ProjectCard = ({ imgURL, title, description, pageUrl, repoUrl }) => {
           <FaSass />
           <SiAngular />
         </div>
-        <p>{description}</p>
         <div className={styles.links}>
           <a href={pageUrl} target="_blank" rel="noopener noreferrer">
             <BsEyeFill />
