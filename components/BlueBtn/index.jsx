@@ -5,7 +5,7 @@ import styles from './btn.module.scss';
 const BlueBtn = () => {
   return (
     <a href={`mailto:${EMAIL}`} rel="noopener nofollow" className={styles.mailBtn}>
-      <p>CONTACT</p>
+      <p>CONTACT ME</p>
       <AiOutlineMail />
     </a>
   );
