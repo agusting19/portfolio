@@ -24,6 +24,22 @@
     "createdWith": ["node", "mongo"]
   },
   {
+    "imgURL": "/flask-api.png",
+    "title": "Flask Rest Api",
+    "description": "",
+    "pageUrl": "",
+    "repoUrl": "https://github.com/agusting19/Flask-RestAPI",
+    "createdWith": ["python"]
+  },
+  {
+    "imgURL": "/web-scraping.png",
+    "title": "Wheather Scraping",
+    "description": "",
+    "pageUrl": "",
+    "repoUrl": "https://github.com/agusting19/weather-scraping",
+    "createdWith": ["python"]
+  },
+  {
     "imgURL": "/trackgenix.png",
     "title": "Trackgenix",
     "description": "",
@@ -53,16 +69,9 @@
     "description": "",
     "pageUrl": "https://weather-app-six-opal.vercel.app/",
     "repoUrl": "https://github.com/agusting19/WeatherApp",
-    "createdWith": ["html", "scss", "ts"]
+    "createdWith": ["angular", "scss"]
   },
-  {
-    "imgURL": "/web-scraping.png",
-    "title": "Wheather Scraping",
-    "description": "",
-    "pageUrl": "",
-    "repoUrl": "https://github.com/agusting19/weather-scraping",
-    "createdWith": ["python"]
-  },
+
   {
     "imgURL": "/todo-angular.png",
     "title": "To Do App Angular",

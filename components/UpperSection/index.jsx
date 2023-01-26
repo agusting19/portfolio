@@ -9,9 +9,9 @@ const UpperSection = () => {
     <section className={styles.container}>
       <div className={styles.leftSide}>
         <h1 className={styles.name}>AGUSTIN GOMEZ</h1>
-        <p className={styles.title}>Full Stack Developer apasionado por la tecnología y la programación.</p>
+        <p className={styles.title}>Full Stack Developer passionate about technology and programming.</p>
         <p className={styles.subTitle}>
-          Siempre aprendiendo nuevas tecnologías y buscando nuevas formas de mejorar proyectos.
+          Always learning new technologies and looking for new ways to improve projects.
         </p>
         <div className={styles.buttons}>
           <BlueBtn />
