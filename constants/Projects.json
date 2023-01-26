@@ -3,7 +3,7 @@
     "imgURL": "/pb-website.png",
     "title": "Planta Baja Website",
     "description": "",
-    "pageUrl": "",
+    "pageUrl": "https://agusting19.github.io/PB-Website-Public/views/",
     "repoUrl": "https://github.com/agusting19/PB-Website-Public",
     "createdWith": ["html", "css", "js"]
   },
@@ -19,7 +19,7 @@
     "imgURL": "/api.png",
     "title": "Time Tracking API",
     "description": "",
-    "pageUrl": "",
+    "pageUrl": "https://github.com/agusting19/capi-trackgenix-server",
     "repoUrl": "https://github.com/agusting19/capi-trackgenix-server",
     "createdWith": ["node", "mongo"]
   },
@@ -27,7 +27,7 @@
     "imgURL": "/flask-api.png",
     "title": "Flask Rest Api",
     "description": "",
-    "pageUrl": "",
+    "pageUrl": "https://github.com/agusting19/Flask-RestAPI",
     "repoUrl": "https://github.com/agusting19/Flask-RestAPI",
     "createdWith": ["python"]
   },
@@ -35,7 +35,7 @@
     "imgURL": "/web-scraping.png",
     "title": "Wheather Scraping",
     "description": "",
-    "pageUrl": "",
+    "pageUrl": "https://github.com/agusting19/weather-scraping",
     "repoUrl": "https://github.com/agusting19/weather-scraping",
     "createdWith": ["python"]
   },
@@ -43,7 +43,7 @@
     "imgURL": "/trackgenix.png",
     "title": "Trackgenix",
     "description": "",
-    "pageUrl": "",
+    "pageUrl": "https://github.com/agusting19/alexis-trackgenix-app",
     "repoUrl": "https://github.com/agusting19/alexis-trackgenix-app",
     "createdWith": ["react", "css"]
   },
@@ -71,12 +71,11 @@
     "repoUrl": "https://github.com/agusting19/WeatherApp",
     "createdWith": ["angular", "scss"]
   },
-
   {
     "imgURL": "/todo-angular.png",
     "title": "To Do App Angular",
     "description": "",
-    "pageUrl": "",
+    "pageUrl": "https://to-do-app-angular-kappa.vercel.app/",
     "repoUrl": "https://github.com/agusting19/ToDoApp-Angular",
     "createdWith": ["angular", "scss"]
   },
@@ -84,7 +83,7 @@
     "imgURL": "/cine-app.png",
     "title": "Cine App",
     "description": "",
-    "pageUrl": "",
+    "pageUrl": "https://cine-app-nine.vercel.app/login",
     "repoUrl": "https://github.com/agusting19/cine-app",
     "createdWith": ["angular", "scss"]
   }
