@@ -16,6 +16,7 @@ const Projects = () => {
               description={project.description}
               pageUrl={project.pageUrl}
               repoUrl={project.repoUrl}
+              createdWith={project.createdWith}
             />
           );
         })}
