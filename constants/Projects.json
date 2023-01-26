@@ -16,7 +16,7 @@
     "createdWith": ["html", "css", "js"]
   },
   {
-    "imgURL": "/api.png",
+    "imgURL": "/time-tracking-api.png",
     "title": "Time Tracking API",
     "description": "",
     "pageUrl": "https://github.com/agusting19/capi-trackgenix-server",
@@ -86,5 +86,13 @@
     "pageUrl": "https://cine-app-nine.vercel.app/login",
     "repoUrl": "https://github.com/agusting19/cine-app",
     "createdWith": ["angular", "scss"]
+  },
+  {
+    "imgURL": "/resto-api.png",
+    "title": "Resto API",
+    "description": "",
+    "pageUrl": "https://github.com/agusting19/resto-api",
+    "repoUrl": "https://github.com/agusting19/resto-api",
+    "createdWith": ["nest"]
   }
 ]
