@@ -1,11 +1,11 @@
 .container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column-reverse;
+  justify-content: space-around;
   align-items: center;
   width: 80vw;
-  height: 65vh;
+  height: 80vh;
   max-width: 1080px;
-  padding: 5rem 0;
   margin: 0 auto;
 
   .leftSide {
@@ -51,9 +51,22 @@
   }
 
   .photo {
-    height: 18rem;
+    height: 12rem;
     object-fit: contain;
     border-radius: 50%;
     border: 10px solid #334155;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  justify-content: space-between;
+    height: 65vh;
+    padding: 5rem 0;
+
+    .photo {
+      height: 18rem;
+    }
   }
 }
