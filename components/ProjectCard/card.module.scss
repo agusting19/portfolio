@@ -1,18 +1,19 @@
 .card {
   background-color: #1e293b;
   border-radius: 5px;
-  margin: 0 auto;
-
+  max-width: 460px;
+  padding: 24px 32px;
+  
   .content {
     display: flex;
     flex-direction: column;
-    width: 30vw;
-    padding: 24px 32px;
     gap: 15px;
+    width: 100%;
 
     img {
       object-fit: contain;
       width: 100%;
+      max-width: 450px;
       aspect-ratio: 16/9;
     }
 
@@ -46,5 +47,11 @@
         padding: 8px 8px 5px 8px;
       }
     }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 36%;
   }
 }

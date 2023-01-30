@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 20px;
   width: 80vw;
-  max-width: 1024px;
+  max-width: 1080px;
   padding: 5rem 0;
   margin: 0 auto;
 
@@ -16,8 +17,9 @@
   .cardsContainer {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
+    max-width: 1080px;
   }
 }
 
@@ -25,6 +27,7 @@
   .container {
     .cardsContainer {
       flex-direction: row;
+      flex-wrap: wrap;
     }
   }
 }
