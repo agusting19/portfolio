@@ -1,17 +1,8 @@
 import Head from 'next/head';
-import { useEffect } from 'react';
 import { Header, Projects, UpperSection } from '../components';
 import styles from '../styles/Home.module.css';
 
-const alertMsg = () => {
-  alert('This site is currently under development');
-};
-
 export default function Home() {
-  useEffect(() => {
-    alertMsg();
-  }, []);
-
   return (
     <>
       <Head>
