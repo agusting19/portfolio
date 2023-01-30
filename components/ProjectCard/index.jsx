@@ -18,29 +18,29 @@ import styles from './card.module.scss';
 const showIcons = (icon, index) => {
   switch (icon) {
     case 'html':
-      return <SiHtml5 key={index} />;
+      return <SiHtml5 title='HTML' key={index} />;
     case 'css':
-      return <SiCss3 key={index} />;
+      return <SiCss3 title='CSS' key={index} />;
     case 'js':
-      return <SiJavascript key={index} />;
+      return <SiJavascript title='JavaScript' key={index} />;
     case 'ts':
-      return <SiTypescript key={index} />;
+      return <SiTypescript title='TypeScript' key={index} />;
     case 'node':
-      return <SiNodedotjs key={index} />;
+      return <SiNodedotjs title='NodeJS' key={index} />;
     case 'react':
-      return <SiReact key={index} />;
+      return <SiReact title='React' key={index} />;
     case 'next':
-      return <SiNextdotjs key={index} />;
+      return <SiNextdotjs title='NextJS' key={index} />;
     case 'nest':
-      return <SiNestjs key={index} />;
+      return <SiNestjs title='NestJS' key={index} />;
     case 'mongo':
-      return <SiMongodb key={index} />;
+      return <SiMongodb title='MongoDB' key={index} />;
     case 'python':
-      return <SiPython key={index} />;
+      return <SiPython title='Python' key={index} />;
     case 'scss':
-      return <FaSass key={index} />;
+      return <FaSass title='Sass' key={index} />;
     case 'angular':
-      return <SiAngular key={index} />;
+      return <SiAngular title='Angular' key={index} />;
   }
 };
 
@@ -52,10 +52,10 @@ const ProjectCard = ({ imgURL, title, pageUrl, repoUrl, createdWith }) => {
         <h3>{title}</h3>
         <div className={styles.icons}>{createdWith.map((icon, index) => showIcons(icon, index))}</div>
         <div className={styles.links}>
-          <a href={pageUrl} target="_blank" rel="noopener noreferrer">
+          <a href={pageUrl} title='Deployment' target="_blank" rel="noopener noreferrer">
             <BsEyeFill />
           </a>
-          <a href={repoUrl} target="_blank" rel="noopener noreferrer">
+          <a href={repoUrl} title='Repository' target="_blank" rel="noopener noreferrer">
             <BsGithub />
           </a>
         </div>
