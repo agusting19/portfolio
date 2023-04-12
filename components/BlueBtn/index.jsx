@@ -1,10 +1,10 @@
 import { AiOutlineMail } from "react-icons/ai";
-import { CV_URL } from "../../constants";
+import { EMAIL } from "../../constants";
 import styles from "./btn.module.scss";
 
 const BlueBtn = () => {
   return (
-    <a href={CV_URL} target="_blank" rel="noopener nofollow" className={styles.mailBtn}>
+    <a href={`mailto:${EMAIL}`} rel="noopener nofollow" className={styles.mailBtn}>
       <p>CONTACT ME</p>
       <AiOutlineMail />
     </a>
