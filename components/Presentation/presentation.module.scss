@@ -1,0 +1,41 @@
+.container {
+  width: 80%;
+  max-width: 1080px;
+  margin: 6rem auto;
+
+  .name {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    background: -webkit-linear-gradient(60deg, #3b82f6, #a855f7, #3b82f6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    max-width: 40ch;
+    color: #ffffff;
+  }
+
+  .subTitle {
+    margin: 1rem 0px;
+    font-size: 1.25rem;
+    max-width: 40ch;
+    color: #c7e8fd;
+  }
+}
+
+@media (width > 767px) {
+  .container {
+    .name {
+      font-size: 4rem;
+      text-align: left;
+    }
+    .title,
+    .subTitle {
+      max-width: 70ch;
+    }
+  }
+}
