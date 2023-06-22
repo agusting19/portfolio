@@ -1,6 +1,6 @@
 [
   {
-    "imgURL": "/pb-website.png",
+    "imgURL": "/pb-website.webp",
     "title": "Planta Baja Website",
     "description": "",
     "pageUrl": "https://agusting19.github.io/PB-Website-Public/views/",
@@ -8,7 +8,7 @@
     "createdWith": ["html", "css", "js"]
   },
   {
-    "imgURL": "/basp-etapa-1.png",
+    "imgURL": "/basp-etapa-1.webp",
     "title": "BaSP-Etapa-1",
     "description": "",
     "pageUrl": "https://agusting19.github.io/BaSP-M2022-Etapa-1/Semana-07/views/index.html",
@@ -16,7 +16,7 @@
     "createdWith": ["html", "css", "js"]
   },
   {
-    "imgURL": "/time-tracking-api.png",
+    "imgURL": "/api.webp",
     "title": "Time Tracking API",
     "description": "",
     "pageUrl": "https://github.com/agusting19/capi-trackgenix-server",
@@ -24,7 +24,7 @@
     "createdWith": ["node", "mongo"]
   },
   {
-    "imgURL": "/flask-api.png",
+    "imgURL": "/api.webp",
     "title": "Flask Rest Api",
     "description": "",
     "pageUrl": "https://github.com/agusting19/Flask-RestAPI",
@@ -32,7 +32,7 @@
     "createdWith": ["python"]
   },
   {
-    "imgURL": "/web-scraping.png",
+    "imgURL": "/web-scraping.webp",
     "title": "Wheather Scraping",
     "description": "",
     "pageUrl": "https://github.com/agusting19/weather-scraping",
@@ -40,7 +40,7 @@
     "createdWith": ["python"]
   },
   {
-    "imgURL": "/trackgenix.png",
+    "imgURL": "/trackgenix.webp",
     "title": "Trackgenix",
     "description": "",
     "pageUrl": "https://github.com/agusting19/alexis-trackgenix-app",
@@ -48,7 +48,7 @@
     "createdWith": ["react", "css"]
   },
   {
-    "imgURL": "/weekly-challenges.png",
+    "imgURL": "/weekly-challenges.webp",
     "title": "Weekly Challenges",
     "description": "",
     "pageUrl": "https://weekly-challenges-v2.vercel.app/",
@@ -56,7 +56,7 @@
     "createdWith": ["next", "css"]
   },
   {
-    "imgURL": "/3d-car.png",
+    "imgURL": "/3d-car.webp",
     "title": "3D Car",
     "description": "",
     "pageUrl": "https://3d-car-theta.vercel.app/",
@@ -64,7 +64,7 @@
     "createdWith": ["html", "css", "js"]
   },
   {
-    "imgURL": "/weather-app.png",
+    "imgURL": "/weather-app.webp",
     "title": "Wheather App",
     "description": "",
     "pageUrl": "https://weather-app-six-opal.vercel.app/",
@@ -72,7 +72,7 @@
     "createdWith": ["angular", "scss"]
   },
   {
-    "imgURL": "/todo-angular.png",
+    "imgURL": "/todo-angular.webp",
     "title": "To Do App Angular",
     "description": "",
     "pageUrl": "https://to-do-app-angular-kappa.vercel.app/",
@@ -80,7 +80,7 @@
     "createdWith": ["angular", "scss"]
   },
   {
-    "imgURL": "/cine-app.png",
+    "imgURL": "/cine-app.webp",
     "title": "Cine App",
     "description": "",
     "pageUrl": "https://cine-app-nine.vercel.app/login",
@@ -88,7 +88,7 @@
     "createdWith": ["angular", "scss"]
   },
   {
-    "imgURL": "/resto-api.png",
+    "imgURL": "/api.webp",
     "title": "Resto API",
     "description": "",
     "pageUrl": "https://github.com/agusting19/resto-api",
