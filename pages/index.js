@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header, Presentation, Projects } from "../components";
+import { About, Header, Presentation, Projects } from "../components";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <Header />
         <Presentation />
+        <About />
         <Projects />
       </main>
     </>
