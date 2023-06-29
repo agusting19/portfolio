@@ -1,67 +1,45 @@
-import { BsGithub, BsEyeFill } from "react-icons/bs";
-// import {
-//   SiTypescript,
-//   SiCss3,
-//   SiReact,
-//   SiNodedotjs,
-//   SiHtml5,
-//   SiJavascript,
-//   SiNextdotjs,
-//   SiNestjs,
-//   SiMongodb,
-//   SiPython,
-//   SiAngular,
-// } from "react-icons/si";
-// import { FaSass } from "react-icons/fa";
+// import { EyeIcon, GithubIcon } from "../IconsComponents";
 import styles from "./card.module.scss";
-import Image from "next/image";
 
-// const showIcons = (icon, index) => {
-//   switch (icon) {
-//     case "html":
-//       return <SiHtml5 title="HTML" key={index} />;
-//     case "css":
-//       return <SiCss3 title="CSS" key={index} />;
-//     case "js":
-//       return <SiJavascript title="JavaScript" key={index} />;
-//     case "ts":
-//       return <SiTypescript title="TypeScript" key={index} />;
-//     case "node":
-//       return <SiNodedotjs title="NodeJS" key={index} />;
-//     case "react":
-//       return <SiReact title="React" key={index} />;
-//     case "next":
-//       return <SiNextdotjs title="NextJS" key={index} />;
-//     case "nest":
-//       return <SiNestjs title="NestJS" key={index} />;
-//     case "mongo":
-//       return <SiMongodb title="MongoDB" key={index} />;
-//     case "python":
-//       return <SiPython title="Python" key={index} />;
-//     case "scss":
-//       return <FaSass title="Sass" key={index} />;
-//     case "angular":
-//       return <SiAngular title="Angular" key={index} />;
-//   }
-// };
-
-const ProjectCard = ({ imgURL, title, pageUrl, repoUrl, createdWith }) => {
+const ProjectCard = ({
+  title,
+  techs,
+  imageUrl,
+  pageUrl,
+  repoUrl,
+  description,
+}) => {
   return (
     <div className={styles.card}>
+      <img src={imageUrl} alt={title} className={styles.img} />
       <div className={styles.content}>
-        <Image src={imgURL} alt="img" width={400} height={300} />
-        <h3>{title}</h3>
-        {/* <div className={styles.icons}>
-          {createdWith.map((icon, index) => showIcons(icon, index))}
-        </div> */}
-        <div className={styles.links}>
+        <h3 className={styles.title}>{title}</h3>
+        <ul className={styles.techs}>
+          {techs.map((tech, index) => {
+            return (
+              <li key={index} className={styles.tech}>
+                {tech}
+              </li>
+            );
+          })}
+        </ul>
+        <p className={styles.description}>{description}</p>
+      </div>
+    </div>
+  );
+};
+
+export default ProjectCard;
+
+{
+  /* <div className={styles.links}>
           <a
             href={pageUrl}
             title="Deployment"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsEyeFill />
+            <EyeIcon />
           </a>
           <a
             href={repoUrl}
@@ -69,12 +47,7 @@ const ProjectCard = ({ imgURL, title, pageUrl, repoUrl, createdWith }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsGithub />
+            <GithubIcon />
           </a>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default ProjectCard;
+        </div> */
+}
