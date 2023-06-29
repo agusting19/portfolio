@@ -1,4 +1,4 @@
-import StudentHatIcon from "../StudentHatIcon";
+import { StudentHatIcon } from "../IconsComponents";
 import styles from "./education.module.scss";
 
 const EducationDescription = ({ title, institution, period }) => {
