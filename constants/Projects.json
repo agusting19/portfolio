@@ -2,50 +2,50 @@
   {
     "imgURL": "/pb-website.webp",
     "title": "Planta Baja Website",
-    "description": "",
+    "description": "This simple web page was created with the purpose of solving the organization and communication problems among the residents of our community. From a bulletin board to a resident directory, an interactive calendar and useful resources, the Planta Baja Website became the virtual hub that facilitated interaction in our residence.",
     "pageUrl": "https://agusting19.github.io/PB-Website-Public/views/",
     "repoUrl": "https://github.com/agusting19/PB-Website-Public",
-    "createdWith": ["html", "css", "js"]
+    "techs": ["HTML", "CSS", "JavaScript"]
   },
   {
     "imgURL": "/basp-etapa-1.webp",
-    "title": "BaSP-Etapa-1",
-    "description": "",
-    "pageUrl": "https://agusting19.github.io/BaSP-M2022-Etapa-1/Semana-07/views/index.html",
+    "title": "Trackgenix Landing Page",
+    "description": "A website, designed with passion and dedication, presents the Trackgenix time tracking software. As a personal learning project, this landing page was created to provide an intuitive and efficient experience. With an attractive design and basic functionalities implemented with HTML, CSS and JS.",
+    "pageUrl": "https://agusting19.github.io/BaSP-M2022-Etapa-1/Semana-07/views/index.HTML",
     "repoUrl": "https://github.com/agusting19/BaSP-M2022-Etapa-1",
-    "createdWith": ["html", "css", "js"]
+    "techs": ["HTML", "CSS", "JavaScript"]
   },
   {
-    "imgURL": "/api.webp",
+    "imgURL": "/nodejs.webp",
     "title": "Time Tracking API",
-    "description": "",
+    "description": "Backend API developed in Node.js. Designed to guarantee the connection between the frontend and the database, this API is in charge of endpoint management, validations and time tracking operations. With a robust architecture, optimal performance and data security.",
     "pageUrl": "https://github.com/agusting19/capi-trackgenix-server",
     "repoUrl": "https://github.com/agusting19/capi-trackgenix-server",
-    "createdWith": ["node", "mongo"]
+    "techs": ["Node.js", "Express.js", "MongoDB"]
   },
   {
-    "imgURL": "/api.webp",
-    "title": "Flask Rest Api",
-    "description": "",
+    "imgURL": "/flask.webp",
+    "title": "Flask Products API",
+    "description": "Flask Products API is a programmatic interface that makes it easy to manage products in a database. It allows you to perform operations such as requesting, creating, editing, and deleting products efficiently. Using Python and Flask, this API provides specific functionality to simplify the product management process.",
     "pageUrl": "https://github.com/agusting19/Flask-RestAPI",
     "repoUrl": "https://github.com/agusting19/Flask-RestAPI",
-    "createdWith": ["python"]
+    "techs": ["Python", "Flask"]
   },
   {
-    "imgURL": "/web-scraping.webp",
+    "imgURL": "/python.webp",
     "title": "Wheather Scraping",
-    "description": "",
+    "description": "This weather scraping application is developed in Python using Selenium and Pandas. With it, you can get accurate weather data for different locations. Using Selenium to automate the extraction of information from websites, and Pandas to organize and analyze the data, this application allows you to easily obtain weather forecasts and statistics.",
     "pageUrl": "https://github.com/agusting19/weather-scraping",
     "repoUrl": "https://github.com/agusting19/weather-scraping",
-    "createdWith": ["python"]
+    "techs": ["Python", "Selenium", "Pandas"]
   },
   {
     "imgURL": "/trackgenix.webp",
     "title": "Trackgenix",
-    "description": "",
+    "description": "Single page application (SPA) created using React, Redux and Firebase. With a new design and smooth navigation, this landing page offers a smoother and more efficient experience. Combine the power of these technologies to present Trackgenix time tracking software in an attractive and functional way.",
     "pageUrl": "https://github.com/agusting19/alexis-trackgenix-app",
     "repoUrl": "https://github.com/agusting19/alexis-trackgenix-app",
-    "createdWith": ["react", "css"]
+    "techs": ["React", "Redux", "Firebase"]
   },
   {
     "imgURL": "/weekly-challenges.webp",
@@ -53,7 +53,7 @@
     "description": "",
     "pageUrl": "https://weekly-challenges-v2.vercel.app/",
     "repoUrl": "https://github.com/agusting19/Weekly-Challenges-v2",
-    "createdWith": ["next", "css"]
+    "techs": ["next", "CSS"]
   },
   {
     "imgURL": "/3d-car.webp",
@@ -61,7 +61,7 @@
     "description": "",
     "pageUrl": "https://3d-car-theta.vercel.app/",
     "repoUrl": "https://github.com/agusting19/3d-car",
-    "createdWith": ["html", "css", "js"]
+    "techs": ["HTML", "CSS", "JavaScript"]
   },
   {
     "imgURL": "/weather-app.webp",
@@ -69,7 +69,7 @@
     "description": "",
     "pageUrl": "https://weather-app-six-opal.vercel.app/",
     "repoUrl": "https://github.com/agusting19/WeatherApp",
-    "createdWith": ["angular", "scss"]
+    "techs": ["angular", "sCSS"]
   },
   {
     "imgURL": "/todo-angular.webp",
@@ -77,7 +77,7 @@
     "description": "",
     "pageUrl": "https://to-do-app-angular-kappa.vercel.app/",
     "repoUrl": "https://github.com/agusting19/ToDoApp-Angular",
-    "createdWith": ["angular", "scss"]
+    "techs": ["angular", "sCSS"]
   },
   {
     "imgURL": "/cine-app.webp",
@@ -85,7 +85,7 @@
     "description": "",
     "pageUrl": "https://cine-app-nine.vercel.app/login",
     "repoUrl": "https://github.com/agusting19/cine-app",
-    "createdWith": ["angular", "scss"]
+    "techs": ["angular", "sCSS"]
   },
   {
     "imgURL": "/api.webp",
@@ -93,6 +93,6 @@
     "description": "",
     "pageUrl": "https://github.com/agusting19/resto-api",
     "repoUrl": "https://github.com/agusting19/resto-api",
-    "createdWith": ["nest"]
+    "techs": ["nest"]
   }
 ]
