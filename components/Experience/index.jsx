@@ -25,7 +25,7 @@ const Experience = () => {
         <JobDescription
           jobTitle={"Frontend Developer"}
           company={"Freelance"}
-          period={"May 2023 - Present"}
+          period={"Aug 2022 - May 2023"}
           techs={freeTechs}
         />
       </article>
