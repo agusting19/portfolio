@@ -29,7 +29,6 @@ const Experience = () => {
           techs={freeTechs}
         />
       </article>
-      <div className={styles.line}></div>
       <article className={styles.studies}>
         <div>
           <h2 className={styles.title}>Education</h2>
