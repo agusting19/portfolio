@@ -8,7 +8,6 @@
   img {
     object-fit: contain;
     width: 100%;
-    max-width: 450px;
     aspect-ratio: 16/9;
   }
 
@@ -33,6 +32,30 @@
 
     .description {
       line-height: 1.5;
+    }
+  }
+}
+
+@media (width > 767px) {
+  .card {
+    gap: 1rem;
+    align-items: center;
+
+    &:nth-child(odd) {
+      flex-direction: row;
+    }
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    img {
+      width: 50%;
+    }
+
+    .content {
+      width: 50%;
+      margin-bottom: 0;
     }
   }
 }
