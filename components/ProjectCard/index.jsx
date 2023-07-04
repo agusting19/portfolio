@@ -1,4 +1,3 @@
-// import { EyeIcon, GithubIcon } from "../IconsComponents";
 import styles from "./card.module.scss";
 
 const ProjectCard = ({
@@ -30,24 +29,3 @@ const ProjectCard = ({
 };
 
 export default ProjectCard;
-
-{
-  /* <div className={styles.links}>
-          <a
-            href={pageUrl}
-            title="Deployment"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <EyeIcon />
-          </a>
-          <a
-            href={repoUrl}
-            title="Repository"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <GithubIcon />
-          </a>
-        </div> */
-}

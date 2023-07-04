@@ -12,10 +12,20 @@ const Header = () => {
     <header className={styles.header}>
       <img src="/white-ag-logo.webp" alt="Logo" onClick={() => scrollToTop()} />
       <nav className={styles.nav}>
-        <Link href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
+        <Link
+          href={GITHUB_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Github profile"
+        >
           <FiGithub />
         </Link>
-        <Link href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
+        <Link
+          href={LINKEDIN_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn profile"
+        >
           <FiLinkedin />
         </Link>
       </nav>
