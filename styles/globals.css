@@ -50,3 +50,20 @@
     border-radius: 37% 63% 67% 33% / 30% 33% 67% 70%;
   }
 }
+
+@layer components {
+  .custom-link::before {
+    @apply absolute top-0 left-0 w-full h-full rounded-full bg-purple-500 opacity-90 scale-90 z-[-1] transition duration-500 ease-in-out;
+    content: "";
+    transform: scale(0.9);
+  }
+  .custom-link:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #a855f7;
+  }
+  .custom-link:hover {
+    @apply text-purple-500 shadow-md;
+    box-shadow: 0 0 5px #a855f7;
+    text-shadow: 0 0 5px #a855f7;
+  }
+}
