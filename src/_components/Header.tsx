@@ -10,7 +10,7 @@ const scrollToTop = () => {
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between max-w-7xl px-4 mx-auto sticky top-0 bg-slate-800 text-white opacity-95 z-50">
+    <header className="flex items-center justify-between max-w-7xl px-4 mx-auto sticky top-0 bg-background text-white opacity-95 z-50">
       <img
         src="/white-ag-logo.webp"
         alt="Logo"
