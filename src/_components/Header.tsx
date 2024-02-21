@@ -10,7 +10,7 @@ const scrollToTop = () => {
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between max-w-7xl px-4 mx-auto sticky top-0 bg-background text-white opacity-95 z-50">
+    <header className="flex items-center justify-between max-w-[1100px] p-4 mx-auto sticky top-0 bg-background text-white opacity-95 z-50">
       <img
         src="/white-ag-logo.webp"
         alt="Logo"
@@ -23,7 +23,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Github profile"
-          className="custom-link group relative block w-12 h-12 text-center align-middle bg-gray-800 rounded-full text-3xl text-gray-500 transition duration-500 ease-in-out"
+          className="custom-link flex items-center justify-center group relative  w-12 h-12 text-center align-middle bg-background rounded-full text-3xl text-gray-500 transition duration-500 ease-in-out"
         >
           <FiGithub className="cursor-pointer text-white" size={26} />
         </Link>
@@ -32,7 +32,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn profile"
-          className="custom-link group relative block w-12 h-12 text-center align-middle bg-gray-800 rounded-full text-3xl text-gray-500 transition duration-500 ease-in-out"
+          className="custom-link group relative flex items-center justify-center w-12 h-12 text-center align-middle bg-background rounded-full text-3xl text-gray-500 transition duration-500 ease-in-out"
         >
           <FiLinkedin className="cursor-pointer text-white" size={26} />
         </Link>
