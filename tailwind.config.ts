@@ -14,6 +14,9 @@ const config: Config = {
         lightBlue: "#c7e8fd",
         lightGray: "#e5e7eb",
       },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
