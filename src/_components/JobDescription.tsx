@@ -15,9 +15,9 @@ const JobDescription = ({
     <div className="flex">
       <div className="spinner relative w-8 h-8 mr-4"></div>
       <div>
-        <h3>{jobTitle}</h3>
-        <p className="text-xl">{company}</p>
-        <p className="text-sm text-lightBlue mb-2">{period}</p>
+        <h3 className="text-xl font-bold">{jobTitle}</h3>
+        <p className="text-lg leading-7 text-lightText">{company}</p>
+        <p className="text-sm text-lightText mb-2">{period}</p>
         <ul className="custom-list-style ml-6">
           {techs.map((tech, index) => {
             return (

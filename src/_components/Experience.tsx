@@ -13,15 +13,17 @@ const Experience = () => {
         <h2 className="text-4xl font-bold mb-8 tracking-tighter md:text-5xl">
           Experience
         </h2>
-        {jobExperiences.map((job) => (
-          <JobDescription
-            key={job.company}
-            jobTitle={job.jobTitle}
-            company={job.company}
-            period={job.period}
-            techs={job.techs}
-          />
-        ))}
+        <div className="flex flex-col gap-4">
+          {jobExperiences.map((job) => (
+            <JobDescription
+              key={job.company}
+              jobTitle={job.jobTitle}
+              company={job.company}
+              period={job.period}
+              techs={job.techs}
+            />
+          ))}
+        </div>
       </article>
       <article className="flex flex-col gap-8 md:w-2/5">
         <div>

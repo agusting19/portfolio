@@ -16,8 +16,8 @@ const EducationDescription = ({
       <StudentHatIcon size={72} className="mt-1" />
       <div className="text-xl leading-7">
         <h3 className="font-bold tracking-tighter">{title}</h3>
-        <p className="text-lightBlue font-light">{institution}</p>
-        <p className="text-lightBlue font-light">{period}</p>
+        <p className="text-lightText font-light">{institution}</p>
+        <p className="text-lightText font-light">{period}</p>
       </div>
     </div>
   )
