@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scale-2 {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0.7);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.spinner::before,
+.spinner::after {
+  @apply absolute top-0 left-0 block w-8 h-8 border-solid rounded-full;
+  border-width: 4px;
+  border-color: #a3cdfd;
+  content: "";
+}
+
+.spinner::before {
+  animation: scale-2 1.5s linear 0s infinite;
+}
+
+.spinner::after {
+  opacity: 0;
+  animation: scale-2 1.5s linear 1s infinite;
+}
+
+.custom-list-style {
+  list-style-type: "- ";
+}
+
+.custom-gradient {
+  background: linear-gradient(60deg, #3b82f6, #a855f7, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@layer utilities {
+  .custom-border-radius {
+    border-radius: 37% 63% 67% 33% / 30% 33% 67% 70%;
+  }
+}
+
+@layer components {
+  .custom-link::before {
+    @apply absolute top-0 left-0 w-full h-full rounded-full bg-purple-500 opacity-90 scale-90 z-[-1] transition duration-500 ease-in-out;
+    content: "";
+    transform: scale(0.9);
+  }
+  .custom-link:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #a855f7;
+  }
+  .custom-link:hover {
+    @apply text-purple-500 shadow-md;
+    box-shadow: 0 0 5px #a855f7;
+    text-shadow: 0 0 5px #a855f7;
+  }
+}
