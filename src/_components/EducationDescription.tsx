@@ -13,7 +13,7 @@ const EducationDescription = ({
 }: EducationDescriptionProps) => {
   return (
     <div className="flex items-start gap-4">
-      <StudentHatIcon size={72} />
+      <StudentHatIcon size={72} className="mt-1" />
       <div className="text-xl leading-7">
         <h3 className="font-bold tracking-tighter">{title}</h3>
         <p className="text-lightBlue font-light">{institution}</p>
