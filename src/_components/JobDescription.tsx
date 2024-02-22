@@ -21,7 +21,7 @@ const JobDescription = ({
         <ul className="custom-list-style ml-6">
           {techs.map((tech, index) => {
             return (
-              <li key={index} className="leading-5">
+              <li key={`${tech} ${index}`} className="leading-5">
                 {tech}
               </li>
             )

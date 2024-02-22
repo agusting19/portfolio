@@ -26,7 +26,7 @@ const ProjectCard = ({
         <h3 className="title text-2xl">{title}</h3>
         <ul className="flex gap-4 list-none text-base font-medium text-blue-300">
           {techs.map((tech, index) => {
-            return <li key={index}>{tech}</li>
+            return <li key={`${tech} ${index}`}>{tech}</li>
           })}
         </ul>
         <p className="leading-6">{description}</p>

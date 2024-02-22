@@ -13,9 +13,9 @@ const Experience = () => {
         <h2 className="text-4xl font-bold mb-8 tracking-tighter md:text-5xl">
           Experience
         </h2>
-        {jobExperiences.map((job, index) => (
+        {jobExperiences.map((job) => (
           <JobDescription
-            key={index}
+            key={job.company}
             jobTitle={job.jobTitle}
             company={job.company}
             period={job.period}
@@ -28,9 +28,9 @@ const Experience = () => {
           <h2 className="text-4xl font-bold mb-8 tracking-tighter md:text-5xl">
             Education
           </h2>
-          {educationDetails.map((education, index) => (
+          {educationDetails.map((education) => (
             <EducationDescription
-              key={index}
+              key={education.title}
               title={education.title}
               institution={education.institution}
               period={education.period}
@@ -42,9 +42,9 @@ const Experience = () => {
             Certifications
           </h2>
           <div className="flex flex-col gap-4">
-            {certificationsDetails.map((certification, index) => (
+            {certificationsDetails.map((certification) => (
               <EducationDescription
-                key={index}
+                key={certification.title}
                 title={certification.title}
                 institution={certification.institution}
                 period={certification.period}
