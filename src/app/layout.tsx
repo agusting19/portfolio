@@ -2,7 +2,7 @@ import Header from "~/_components/Header"
 import "../../styles/globals.css"
 
 export const metadata = {
-  title: "Wash App",
+  title: "Agustin Gomez - Portfolio",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 }
 
