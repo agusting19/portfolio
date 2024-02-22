@@ -14,6 +14,7 @@ const config: Config = {
         primary: "#a855f7",
         lightBlue: "#c7e8fd",
         lightGray: "#e5e7eb",
+        lightText: "#94a3b8",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
