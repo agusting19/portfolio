@@ -1,26 +1,32 @@
+import Image from "next/image"
+
 interface ProjectCardProps {
   title: string
   techs: string[]
   imageUrl: string
-  pageUrl: string
-  repoUrl: string
   description: string
+  inverted?: boolean
 }
 
 const ProjectCard = ({
   title,
   techs,
   imageUrl,
-  pageUrl,
-  repoUrl,
   description,
+  inverted,
 }: ProjectCardProps) => {
   return (
-    <div className="flex flex-col md:flex-row md:items-center w-full text-slate-300 mx-auto gap-4">
-      <img
+    <div
+      className={`flex flex-col md:items-center ${
+        inverted ? "md:flex-row-reverse" : "md:flex-row"
+      } w-full text-slate-300 mx-auto gap-4`}
+    >
+      <Image
         src={imageUrl}
         alt={title}
-        className="object-contain w-full aspect-video"
+        width={1080}
+        height={720}
+        className="object-cover w-full aspect-video md:w-96 rounded-md"
       />
       <div className="flex flex-col gap-2 mb-2">
         <h3 className="title text-2xl">{title}</h3>
