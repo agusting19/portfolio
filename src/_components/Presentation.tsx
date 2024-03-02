@@ -22,7 +22,7 @@ const Presentation = () => {
         alt="Foto de frente"
         width={1080}
         height={720}
-        className="w-full mx-auto p-4 bg-[#334155] custom-border-radius md:w-[320px]"
+        className="w-full h-80 mx-auto p-4 bg-[#334155] custom-border-radius md:w-[320px]"
       />
     </section>
   )

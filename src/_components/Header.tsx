@@ -1,7 +1,9 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import { FiGithub, FiLinkedin } from "react-icons/fi"
+import LOGO_IMG from "../../public/white-ag-logo.webp"
 import { GITHUB_URL, LINKEDIN_URL } from "../constants"
 
 const scrollToTop = () => {
@@ -11,9 +13,11 @@ const scrollToTop = () => {
 const Header = () => {
   return (
     <header className="flex items-center justify-between max-w-[1100px] p-4 mx-auto sticky top-0 bg-background text-white opacity-95 z-50">
-      <img
-        src="/white-ag-logo.webp"
+      <Image
+        src={LOGO_IMG.src}
         alt="Logo"
+        width={800}
+        height={600}
         onClick={() => scrollToTop()}
         className="h-8 w-auto object-contain cursor-pointer"
       />
