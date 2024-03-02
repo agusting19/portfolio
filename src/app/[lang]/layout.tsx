@@ -1,5 +1,5 @@
 import Header from "~/_components/Header"
-import { Locale, i18n } from "~/i18n-config"
+import { Locale, i18n } from "~/i18n/i18n-config"
 import "../../../styles/globals.css"
 
 export function generateStaticParams() {
