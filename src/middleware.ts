@@ -40,6 +40,9 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
   const pathname = request.nextUrl.pathname
   const params = `?${request.nextUrl.searchParams.toString()}`
 
+  if (pathname.includes("Agustin-Gomez") || pathname.includes("Gomez-Agustin"))
+    return NextResponse.next()
+
   const pathnameIsMissingLocale = i18n.locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   )
