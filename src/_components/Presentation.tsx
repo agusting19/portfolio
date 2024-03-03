@@ -1,7 +1,12 @@
 import Image from "next/image"
+import { Presentation } from "~/types/i18n"
 import CvDownloadLink from "./CvDownloadLink"
 
-const Presentation = () => {
+interface PresentationProps {
+  translations: Presentation
+}
+
+const Presentation = ({ translations }: PresentationProps) => {
   return (
     <section className="flex flex-col gap-20 w-11/12 max-w-[1100px] my-16 mx-auto md:flex-row md:justify-center md:items-center md:gap-2 md:my-24 md:p-4">
       <div className="md:w-3/4 space-y-4">
@@ -9,17 +14,16 @@ const Presentation = () => {
           AGUSTIN GOMEZ
         </h1>
         <p className="text-3xl text-white md:max-w-[40ch] leading-none">
-          Full Stack Developer passionate about technology and programming.
+          {translations.title}
         </p>
         <p className="my-4 text-lightGray max-w-sm leading-none">
-          Always learning new technologies and looking for new ways to improve
-          projects.
+          {translations.subTitle}
         </p>
-        <CvDownloadLink />
+        <CvDownloadLink buttonText={translations.downloadCv} />
       </div>
       <Image
         src="/me.webp"
-        alt="Foto de frente"
+        alt={translations.altPhoto}
         width={1080}
         height={720}
         className="w-full h-80 mx-auto p-4 bg-[#334155] custom-border-radius md:w-[320px]"
