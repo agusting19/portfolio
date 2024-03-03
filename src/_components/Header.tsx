@@ -4,7 +4,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { FiGithub, FiLinkedin } from "react-icons/fi"
 import { Locale } from "~/i18n/i18n-config"
-import LOGO_IMG from "../../public/white-ag-logo.webp"
 import { GITHUB_URL, LINKEDIN_URL } from "../constants"
 
 const scrollToTop = () => {
@@ -26,7 +25,7 @@ const Header = ({ lang }: HeaderProps) => {
   return (
     <header className="flex items-center justify-between max-w-[1100px] p-4 mx-auto sticky top-0 bg-background text-white opacity-95 z-50">
       <Image
-        src={LOGO_IMG.src}
+        src="https://res.cloudinary.com/dy1cn8nnv/image/upload/v1709491409/white-ag-logo_gvcnhq.webp"
         alt="Logo"
         width={800}
         height={600}

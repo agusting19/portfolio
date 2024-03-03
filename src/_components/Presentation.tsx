@@ -22,7 +22,7 @@ const Presentation = ({ translations }: PresentationProps) => {
         <CvDownloadLink buttonText={translations.downloadCv} />
       </div>
       <Image
-        src="/me.webp"
+        src="https://res.cloudinary.com/dy1cn8nnv/image/upload/v1709491409/me_dojllk.webp"
         alt={translations.altPhoto}
         width={1080}
         height={720}

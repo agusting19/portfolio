@@ -8,6 +8,8 @@ interface ProjectsListProps {
 
 const ProjectsList = ({ tranlations }: ProjectsListProps) => {
   const projectsList = tranlations.projectsList
+  const cloudinaryUrl =
+    "https://res.cloudinary.com/dy1cn8nnv/image/upload/v1709491409"
 
   return (
     <section className="max-w-[1100px] py-16 px-auto bg-backgroundSecondary mx-auto md:py-20 md:px-16">
@@ -20,7 +22,7 @@ const ProjectsList = ({ tranlations }: ProjectsListProps) => {
             <ProjectCard
               key={project.title}
               title={project.title}
-              imageUrl={IMAGE_URLS[index]}
+              imageUrl={`${cloudinaryUrl}${IMAGE_URLS[index]}`}
               techs={project.techs}
               description={project.description}
               inverted={index % 2 !== 0}
