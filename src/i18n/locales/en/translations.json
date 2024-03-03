@@ -1,0 +1,143 @@
+{
+  "component": {
+    "presentation": {
+      "title": "Full Stack Developer passionate about technology and programming.",
+      "subTitle": "Always learning new technologies and looking for new ways to improve projects.",
+      "downloadCv": "Download CV",
+      "altPhoto": "Agustin-photo"
+    },
+    "experience": {
+      "experience": "Experience",
+      "jobExperiences": [
+        {
+          "jobTitle": "Fullstack Developer",
+          "company": "Mundo IT",
+          "period": "July 2023 - Present",
+          "techs": [
+            "Next.js",
+            "React Native",
+            "TypeScript",
+            "Node.js",
+            "MongoDB",
+            "PostgreSQL",
+            "Tailwind CSS",
+            "AWS",
+            "Git"
+          ]
+        },
+        {
+          "jobTitle": "Backend Developer",
+          "company": "AikoDev",
+          "period": "January 2023 - June 2023",
+          "techs": [
+            "TypeScript",
+            "Node.js",
+            "Express.js",
+            "NestJS",
+            "MongoDB",
+            "MySQL",
+            "Git"
+          ]
+        },
+        {
+          "jobTitle": "Frontend Developer",
+          "company": "Freelance",
+          "period": "August 2022 - December 2023",
+          "techs": [
+            "TypeScript",
+            "React.js",
+            "Next.js",
+            "React Native",
+            "Tailwind CSS",
+            "Node.js",
+            "MongoDB",
+            "PostgreSQL",
+            "Git"
+          ]
+        }
+      ],
+      "education": "Education",
+      "educationDetails": [
+        {
+          "title": "Electronic Engineering",
+          "institution": "Universidad Nacional de Rosario",
+          "period": "Mar 2018 - "
+        }
+      ],
+      "certifications": "Certifications",
+      "certificationsDetails": [
+        {
+          "title": "Software Developer",
+          "institution": "Radium Rocket",
+          "period": "Mar 2022 - Jul 2022"
+        },
+        {
+          "title": "Design Patterns",
+          "institution": "Educacion IT",
+          "period": "Dec 2023"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "projectsList": [
+        {
+          "title": "Planta Baja Website",
+          "description": "I developed a website for the Ground Floor residence, aimed at improving communication and organization between neighbors. This platform includes a bulletin board, resident directory, interactive calendar and access to useful resources, becoming the digital core for harmonious coexistence.",
+          "techs": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "title": "Trackgenix Landing Page",
+          "description": "As a team, we launched Trackgenix, a time management website, marking our first collaborative project under agile methodologies. This experience taught us the value of teamwork and agility in software development. We implement a clean design and essential functionalities with HTML, CSS and JS, offering an efficient and easy-to-use solution for time tracking.",
+          "techs": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "title": "Time Tracking API",
+          "description": "We developed an API in Node.js to be the core of Trackgenix, ensuring seamless integration between the frontend and the database. This solution specializes in efficient endpoint management, data validation and time tracking operations, standing out for its solid architecture, optimized performance and data protection security.",
+          "techs": ["Node.js", "Express.js", "MongoDB"]
+        },
+        {
+          "title": "Flask Products API",
+          "description": "Implemented an efficient API with Flask for product management, taking advantage of the simplicity and power of Python. This API focuses on key product management operations such as querying, creating, updating and deleting, offering an agile and straightforward solution for interacting with the database. Its intuitive design and targeted approach allow for easy integration and maintenance, optimizing your product management workflow.",
+          "techs": ["Python", "Flask"]
+        },
+        {
+          "title": "Wheather Scraping",
+          "description": "I developed a Python application for scrapping weather data, using Selenium to navigate and extract information from web pages, and Pandas to process and analyze the collected data. This project allows you to collect and organize climate data from different locations efficiently, offering access to climate forecasts and statistics.",
+          "techs": ["Python", "Selenium", "Pandas"]
+        },
+        {
+          "title": "Trackgenix",
+          "description": "We evolved from a landing page to developing the full Trackgenix application, using a modern technology stack that includes React, Redux, Firebase, Node.js, Express and MongoDB. This SPA (Single Page Application) not only elevated our design and user experience to a new level with flawless navigation, but also integrated its own REST API to successfully manage time tracking. This project was a success in our learning about agile development and deploying robust solutions in real production environments.",
+          "techs": ["React", "Redux", "Firebase"]
+        },
+        {
+          "title": "Weekly Challenges",
+          "description": "I created a website with Next.js where I share my answers to MoureDev's weekly challenges, serving as a log of my programming progress and learning. Each challenge is an opportunity to apply and deepen practical knowledge, keeping my skills sharp. This project not only documents my learning journey but also demonstrates my ability to solve complex problems and develop modern web solutions.",
+          "techs": ["Next.js", "CSS"]
+        },
+        {
+          "title": "3D Car",
+          "description": "Developed an interactive website that presents a 3D model of a car using React and React Three Fiber. This project was designed to explore 3D rendering capabilities in web applications, improving my skills in interactive web development and 3D graphics.",
+          "techs": ["React", "React-Three-Fiber"]
+        },
+        {
+          "title": "Wheather App",
+          "description": "I developed a weather application using Angular and SCSS, in order to deepen my TypeScript mastery and explore the possibilities of SCSS in interface design. The app connects to an API to obtain and display current climate data, offering users a visually engaging and functionally rich experience. This project not only allowed me to practice and improve in Angular and TypeScript, but also learn and apply SCSS to create a coherent and aesthetically pleasing user interface.",
+          "techs": ["TypeScript", "Angular", "SCSS"]
+        },
+        {
+          "title": "To Do App Angular",
+          "description": "Made a task app using Angular to get better at TypeScript and get familiar with SCSS. It is a simple tool that allows users to add, complete and delete tasks, focused on providing a clear and hassle-free user experience. Through this project, I deepened my understanding of Angular and its practical applications in web development.",
+          "techs": ["TypeScript", "Angular", "SCSS"]
+        },
+        {
+          "title": "Resto API",
+          "description": "Together with a colleague, we started developing a restaurant API using TypeScript, NestJS, and MongoDB. This project aims to effectively manage a restaurant's inventory and orders, offering functionalities for product management, including creation, editing, and deletion, in addition to stock management. It was designed with efficiency and scalability in mind, providing a solid and secure foundation for critical business operations.",
+          "techs": ["TypeScript", "Nest.js", "MongoDB"]
+        }
+      ]
+    }
+  },
+  "page": {}
+}

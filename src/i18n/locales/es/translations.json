@@ -1,0 +1,143 @@
+{
+  "component": {
+    "presentation": {
+      "title": "Desarrollador Full Stack apasionado por la tecnología y la programación.",
+      "subTitle": "Siempre aprendiendo nuevas tecnologías y buscando nuevas formas de mejorar los proyectos.",
+      "downloadCv": "Descargar CV",
+      "altPhoto": "Agustin-foto"
+    },
+    "experience": {
+      "experience": "Experiencia",
+      "jobExperiences": [
+        {
+          "jobTitle": "Desarollador Fullstack",
+          "company": "Mundo IT",
+          "period": "Julio 2023 - Presente",
+          "techs": [
+            "Next.js",
+            "React Native",
+            "TypeScript",
+            "Node.js",
+            "MongoDB",
+            "PostgreSQL",
+            "Tailwind CSS",
+            "AWS",
+            "Git"
+          ]
+        },
+        {
+          "jobTitle": "Desarollador Backend",
+          "company": "AikoDev",
+          "period": "Enero 2023 - Junio 2023",
+          "techs": [
+            "TypeScript",
+            "Node.js",
+            "Express.js",
+            "NestJS",
+            "MongoDB",
+            "MySQL",
+            "Git"
+          ]
+        },
+        {
+          "jobTitle": "Desarollador Frontend",
+          "company": "Freelance",
+          "period": "Agosto 2022 - Diciembre 2023",
+          "techs": [
+            "TypeScript",
+            "React.js",
+            "Next.js",
+            "React Native",
+            "Tailwind CSS",
+            "Node.js",
+            "MongoDB",
+            "PostgreSQL",
+            "Git"
+          ]
+        }
+      ],
+      "education": "Educación",
+      "educationDetails": [
+        {
+          "title": "Ingenieria Electrónica",
+          "institution": "Universidad Nacional de Rosario",
+          "period": "Mar 2018 - "
+        }
+      ],
+      "certifications": "Certificaciones",
+      "certificationsDetails": [
+        {
+          "title": "Desarrollador de Software",
+          "institution": "Radium Rocket",
+          "period": "Mar 2022 - Jul 2022"
+        },
+        {
+          "title": "Patrones de Diseño",
+          "institution": "Educacion IT",
+          "period": "Dec 2023"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Proyectos",
+      "projectsList": [
+        {
+          "title": "Sitio Web de Planta Baja",
+          "description": "Desarrollé un sitio web para la residencia Planta Baja, dirigido a mejorar la comunicación y organización entre vecinos. Esta plataforma incluye un tablero de anuncios, directorio de residentes, calendario interactivo y acceso a recursos útiles, convirtiéndose en el núcleo digital para una convivencia armónica.",
+          "techs": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "title": "Trackgenix Landing Page",
+          "description": "En equipo, lanzamos Trackgenix, un sitio web para gestión de tiempo, marcando nuestro primer proyecto colaborativo bajo metodologías ágiles. Esta experiencia nos enseñó el valor del trabajo en equipo y la agilidad en el desarrollo de software. Implementamos un diseño limpio y funcionalidades esenciales con HTML, CSS y JS, ofreciendo una solución eficiente y fácil de usar para el seguimiento del tiempo.",
+          "techs": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "title": "Time Tracking API",
+          "description": "Desarrollamos una API en Node.js para ser el núcleo de Trackgenix, asegurando una integración fluida entre el frontend y la base de datos. Esta solución se especializa en la gestión eficiente de endpoints, validación de datos y operaciones de seguimiento de tiempo, destacando por su arquitectura sólida, rendimiento optimizado y seguridad en la protección de datos.",
+          "techs": ["Node.js", "Express.js", "MongoDB"]
+        },
+        {
+          "title": "Flask Products API",
+          "description": "Implementé una API eficiente con Flask para la gestión de productos, aprovechando la simplicidad y potencia de Python. Esta API se centra en operaciones clave de administración de productos, como la consulta, creación, actualización y eliminación, ofreciendo una solución ágil y directa para interactuar con la base de datos. Su diseño intuitivo y enfoque específico permiten una integración y mantenimiento sencillos, optimizando el flujo de trabajo de gestión de productos.",
+          "techs": ["Python", "Flask"]
+        },
+        {
+          "title": "Wheather Scraping",
+          "description": "Desarrollé una aplicación en Python para el scrapping de datos meteorológicos, utilizando Selenium para navegar y extraer información de páginas web, y Pandas para procesar y analizar los datos recopilados. Este proyecto permite recoger y organizar datos climáticos de diferentes ubicaciones de manera eficiente, ofreciendo acceso a pronósticos y estadísticas del clima.",
+          "techs": ["Python", "Selenium", "Pandas"]
+        },
+        {
+          "title": "Trackgenix",
+          "description": "Evolucionamos desde una landing page a desarrollar la aplicación completa Trackgenix, utilizando un stack tecnológico moderno que incluye React, Redux, Firebase, Node.js, Express y MongoDB. Esta SPA (Single Page Application) no solo elevó nuestro diseño y experiencia de usuario a un nuevo nivel con una navegación impecable, sino que también integró una API REST propia para gestionar exitosamente el seguimiento del tiempo. Este proyecto fue un éxito en nuestro aprendizaje sobre el desarrollo ágil y la implementación de soluciones robustas en entornos de producción real.",
+          "techs": ["React", "Redux", "Firebase"]
+        },
+        {
+          "title": "Weekly Challenges",
+          "description": "Creé un sitio web con Next.js donde comparto mis respuestas a los retos semanales de MoureDev, sirviendo como una bitácora de mi progreso y aprendizaje en programación. Cada desafío es una oportunidad para aplicar y profundizar en conocimientos prácticos, manteniendo mis habilidades afiladas. Este proyecto no solo documenta mi viaje de aprendizaje sino que también demuestra mi capacidad para resolver problemas complejos y desarrollar soluciones web modernas.",
+          "techs": ["Next.js", "CSS"]
+        },
+        {
+          "title": "3D Car",
+          "description": "Desarrollé una web interactiva que presenta un modelo 3D de un automóvil usando React y React Three Fiber. Este proyecto fue diseñado para explorar las capacidades de renderizado 3D en aplicaciones web, mejorando mis habilidades en desarrollo web interactivo y gráficos 3D.",
+          "techs": ["React", "React-Three-Fiber"]
+        },
+        {
+          "title": "Wheather App",
+          "description": "Desarrollé una aplicación meteorológica usando Angular y SCSS, con el fin de profundizar mi dominio de TypeScript y explorar las posibilidades de SCSS en el diseño de interfaces. La aplicación se conecta a una API para obtener y mostrar datos climáticos actuales, ofreciendo a los usuarios una experiencia visualmente atractiva y funcionalmente rica. Este proyecto no solo me permitió practicar y mejorar en Angular y TypeScript, sino también aprender y aplicar SCSS para crear una interfaz de usuario coherente y estéticamente agradable.",
+          "techs": ["TypeScript", "Angular", "SCSS"]
+        },
+        {
+          "title": "To Do App Angular",
+          "description": "Realicé una aplicación de tareas usando Angular para mejorar en TypeScript y familiarizarme con SCSS. Es una herramienta sencilla que permite a los usuarios añadir, completar y eliminar tareas, enfocada en brindar una experiencia de usuario clara y sin complicaciones. A través de este proyecto, profundicé mi comprensión de Angular y sus aplicaciones prácticas en el desarrollo web.",
+          "techs": ["TypeScript", "Angular", "SCSS"]
+        },
+        {
+          "title": "Resto API",
+          "description": "Junto a un colega, iniciamos el desarrollo de una API de restaurante utilizando TypeScript, NestJS, y MongoDB. Este proyecto tiene como fin manejar eficazmente el inventario y los pedidos de un restaurante, ofreciendo funcionalidades para la gestión de productos, incluyendo la creación, edición, y eliminación, además de la administración de stock. Se diseñó pensando en la eficiencia y escalabilidad, proporcionando una base sólida y segura para operaciones críticas del negocio.",
+          "techs": ["TypeScript", "Nest.js", "MongoDB"]
+        }
+      ]
+    }
+  },
+  "page": {}
+}
