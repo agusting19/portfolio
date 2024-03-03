@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang={params.lang}>
       <body className="bg-background">
-        <Header />
+        <Header lang={params.lang} />
         {children}
       </body>
     </html>
