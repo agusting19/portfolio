@@ -1,20 +1,24 @@
-import {
-  certificationsDetails,
-  educationDetails,
-  jobExperiences,
-} from "~/constants"
+import { Experience } from "~/types/i18n"
 import EducationDescription from "./EducationDescription"
 import JobDescription from "./JobDescription"
 
-const Experience = () => {
+interface JobExperience {
+  translations: Experience
+}
+
+const Experience = ({ translations }: JobExperience) => {
+  const jobsList = translations.jobExperiences
+  const educationList = translations.educationDetails
+  const certificationsList = translations.certificationsDetails
+
   return (
     <section className="flex flex-col justify-between gap-16 py-16 px-8 bg-backgroundSecondary max-w-[1100px] my-24 mx-auto text-lightGray md:flex-row md:justify-between md:py-20 md:px-16">
       <article className="md:w-2/5">
         <h2 className="text-4xl font-bold mb-8 tracking-tighter md:text-5xl">
-          Experience
+          {translations.experience}
         </h2>
         <div className="flex flex-col gap-4">
-          {jobExperiences.map((job) => (
+          {jobsList.map((job) => (
             <JobDescription
               key={job.company}
               jobTitle={job.jobTitle}
@@ -28,9 +32,9 @@ const Experience = () => {
       <article className="flex flex-col gap-8 md:w-2/5">
         <div>
           <h2 className="text-4xl font-bold mb-8 tracking-tighter md:text-5xl">
-            Education
+            {translations.education}
           </h2>
-          {educationDetails.map((education) => (
+          {educationList.map((education) => (
             <EducationDescription
               key={education.title}
               title={education.title}
@@ -41,10 +45,10 @@ const Experience = () => {
         </div>
         <div>
           <h2 className="text-4xl font-bold mb-8 tracking-tighter md:text-5xl">
-            Certifications
+            {translations.certifications}
           </h2>
           <div className="flex flex-col gap-4">
-            {certificationsDetails.map((certification) => (
+            {certificationsList.map((certification) => (
               <EducationDescription
                 key={certification.title}
                 title={certification.title}
