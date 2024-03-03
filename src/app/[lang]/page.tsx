@@ -15,7 +15,7 @@ const Home = async ({ params: { lang } }: HomeProps) => {
 
   return (
     <>
-      <Presentation translations={component.presentation} />
+      <Presentation translations={component.presentation} lang={lang} />
       <Experience translations={component.experience} />
       <ProjectsList tranlations={component.projects} />
     </>

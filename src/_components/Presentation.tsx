@@ -1,12 +1,14 @@
 import Image from "next/image"
+import { Locale } from "~/i18n/i18n-config"
 import { Presentation } from "~/types/i18n"
 import CvDownloadLink from "./CvDownloadLink"
 
 interface PresentationProps {
   translations: Presentation
+  lang: Locale
 }
 
-const Presentation = ({ translations }: PresentationProps) => {
+const Presentation = ({ translations, lang }: PresentationProps) => {
   return (
     <section className="flex flex-col gap-20 w-11/12 max-w-[1100px] my-16 mx-auto md:flex-row md:justify-center md:items-center md:gap-2 md:my-24 md:p-4">
       <div className="md:w-3/4 space-y-4">
@@ -19,7 +21,7 @@ const Presentation = ({ translations }: PresentationProps) => {
         <p className="my-4 text-lightGray max-w-sm leading-none">
           {translations.subTitle}
         </p>
-        <CvDownloadLink buttonText={translations.downloadCv} />
+        <CvDownloadLink buttonText={translations.downloadCv} lang={lang} />
       </div>
       <Image
         src="https://res.cloudinary.com/dy1cn8nnv/image/upload/v1709491409/me_dojllk.webp"
