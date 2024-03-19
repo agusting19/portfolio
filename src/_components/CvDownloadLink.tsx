@@ -7,7 +7,8 @@ interface CvDownloadLinkProps {
 }
 
 const CvDownloadLink = ({ buttonText, lang }: CvDownloadLinkProps) => {
-  const CV_PATH = lang === "es" ? "/Agustin-Gomez.pdf" : "/Gomez-Agustin.pdf"
+  const CV_PATH =
+    lang === "es" ? "/CV-Agustin-Gomez.pdf" : "/CV-Gomez-Agustin.pdf"
 
   return (
     <Link
