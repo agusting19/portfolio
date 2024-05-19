@@ -1,9 +1,9 @@
-import { Experience } from "~/types/i18n"
+import { Experience as ExperienceLang } from "~/types/i18n"
 import EducationDescription from "./EducationDescription"
 import JobDescription from "./JobDescription"
 
 interface JobExperience {
-  translations: Experience
+  translations: ExperienceLang
 }
 
 const Experience = ({ translations }: JobExperience) => {
